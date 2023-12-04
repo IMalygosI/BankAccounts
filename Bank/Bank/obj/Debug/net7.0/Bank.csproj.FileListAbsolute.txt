@@ -1,0 +1,30 @@
+C:\Users\prdb\source\repos\Bank\Bank\bin\Debug\net7.0\Bank.exe
+C:\Users\prdb\source\repos\Bank\Bank\bin\Debug\net7.0\Bank.deps.json
+C:\Users\prdb\source\repos\Bank\Bank\bin\Debug\net7.0\Bank.runtimeconfig.json
+C:\Users\prdb\source\repos\Bank\Bank\bin\Debug\net7.0\Bank.dll
+C:\Users\prdb\source\repos\Bank\Bank\bin\Debug\net7.0\Bank.pdb
+C:\Users\prdb\source\repos\Bank\Bank\obj\Debug\net7.0\Bank.csproj.AssemblyReference.cache
+C:\Users\prdb\source\repos\Bank\Bank\obj\Debug\net7.0\Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prdb\source\repos\Bank\Bank\obj\Debug\net7.0\Bank.AssemblyInfoInputs.cache
+C:\Users\prdb\source\repos\Bank\Bank\obj\Debug\net7.0\Bank.AssemblyInfo.cs
+C:\Users\prdb\source\repos\Bank\Bank\obj\Debug\net7.0\Bank.csproj.CoreCompileInputs.cache
+C:\Users\prdb\source\repos\Bank\Bank\obj\Debug\net7.0\Bank.dll
+C:\Users\prdb\source\repos\Bank\Bank\obj\Debug\net7.0\refint\Bank.dll
+C:\Users\prdb\source\repos\Bank\Bank\obj\Debug\net7.0\Bank.pdb
+C:\Users\prdb\source\repos\Bank\Bank\obj\Debug\net7.0\Bank.genruntimeconfig.cache
+C:\Users\prdb\source\repos\Bank\Bank\obj\Debug\net7.0\ref\Bank.dll
+C:\Users\prdb\Desktop\ИП2к-22\Удальцов Дмитрий\Bank\Bank\bin\Debug\net7.0\Bank.exe
+C:\Users\prdb\Desktop\ИП2к-22\Удальцов Дмитрий\Bank\Bank\bin\Debug\net7.0\Bank.deps.json
+C:\Users\prdb\Desktop\ИП2к-22\Удальцов Дмитрий\Bank\Bank\bin\Debug\net7.0\Bank.runtimeconfig.json
+C:\Users\prdb\Desktop\ИП2к-22\Удальцов Дмитрий\Bank\Bank\bin\Debug\net7.0\Bank.dll
+C:\Users\prdb\Desktop\ИП2к-22\Удальцов Дмитрий\Bank\Bank\bin\Debug\net7.0\Bank.pdb
+C:\Users\prdb\Desktop\ИП2к-22\Удальцов Дмитрий\Bank\Bank\obj\Debug\net7.0\Bank.csproj.AssemblyReference.cache
+C:\Users\prdb\Desktop\ИП2к-22\Удальцов Дмитрий\Bank\Bank\obj\Debug\net7.0\Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prdb\Desktop\ИП2к-22\Удальцов Дмитрий\Bank\Bank\obj\Debug\net7.0\Bank.AssemblyInfoInputs.cache
+C:\Users\prdb\Desktop\ИП2к-22\Удальцов Дмитрий\Bank\Bank\obj\Debug\net7.0\Bank.AssemblyInfo.cs
+C:\Users\prdb\Desktop\ИП2к-22\Удальцов Дмитрий\Bank\Bank\obj\Debug\net7.0\Bank.csproj.CoreCompileInputs.cache
+C:\Users\prdb\Desktop\ИП2к-22\Удальцов Дмитрий\Bank\Bank\obj\Debug\net7.0\Bank.dll
+C:\Users\prdb\Desktop\ИП2к-22\Удальцов Дмитрий\Bank\Bank\obj\Debug\net7.0\refint\Bank.dll
+C:\Users\prdb\Desktop\ИП2к-22\Удальцов Дмитрий\Bank\Bank\obj\Debug\net7.0\Bank.pdb
+C:\Users\prdb\Desktop\ИП2к-22\Удальцов Дмитрий\Bank\Bank\obj\Debug\net7.0\Bank.genruntimeconfig.cache
+C:\Users\prdb\Desktop\ИП2к-22\Удальцов Дмитрий\Bank\Bank\obj\Debug\net7.0\ref\Bank.dll
