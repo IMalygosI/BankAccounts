@@ -1,7 +1,8 @@
-﻿using System;
+using System;
 using System.Net.Sockets;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 public class Account
 {
@@ -43,7 +44,7 @@ public class BankAccount
             }
         }
     }
-    public static void CreateUser()// Создаем аккаунт
+    private static void CreateUser()// Создаем аккаунт
     {
         Console.WriteLine("Введите номер счета:");
         int number = Convert.ToInt32(Console.ReadLine());
@@ -61,7 +62,7 @@ public class BankAccount
         account[number] = user;
         Console.WriteLine("\nНовый аккаунт создан.\n");
     }
-    public static void Action() // Выбираем действие для аккаунта
+    private static void Action() // Выбираем действие для аккаунта
     {
         Console.WriteLine("Введите номер счета аккаунта:");
         int number = Convert.ToInt32(Console.ReadLine()); // Номер счета
@@ -108,7 +109,7 @@ public class BankAccount
             Console.WriteLine($"|Аккаунта с номером счета {number} не существует|");
         }
     }
-    public static void Out() // Ввод информации
+    private static void Out() // Ввод информации
     {
         if (currentUser != null) // currentUser - текущий пользователь
         {
@@ -124,7 +125,7 @@ public class BankAccount
             Console.WriteLine("Аккаунт не выбран.");
         }
     }
-    public static void Dob()// вносим деньги
+    private static void Dob()// вносим деньги
     {
         Console.WriteLine($"Сколько хотите положить на счёт? На счету: {currentUser.Sum} рублей");
         float sumdob = float.Parse(Console.ReadLine());// вносимые деньги
@@ -133,7 +134,7 @@ public class BankAccount
         Console.WriteLine($"Вы внесли: {sumdob} рублей\n");
         Console.WriteLine($"\nНа счету: {currentUser.Sum} рублей\n");
     }
-    public static void Umen()// Снимаем деньги
+    private static void Umen()// Снимаем деньги
     {
         Console.WriteLine($"Сколько хотите снять со счёта? На счету: {currentUser.Sum} рублей\n");
         float sumUmen = float.Parse(Console.ReadLine());//  снимаемые со счета деньги
@@ -155,13 +156,13 @@ public class BankAccount
             Obnul();
         }
     }
-    public static void Obnul() // забираем со счета все имеющиеся деньги
+    private static void Obnul() // забираем со счета все имеющиеся деньги
     {
         Console.WriteLine($"Вы сняли {currentUser.Sum} рублей");
         currentUser.Sum -= currentUser.Sum;
         Console.WriteLine($"|ВНИМАНИЕ! Вы сняли со счета все деньги, на счету осталось: {currentUser.Sum} рублей|");
     }
-    public static void Perevod()// Совершаем перевод денег между двумя счетами
+    private static void Perevod()// Совершаем перевод денег между двумя счетами
     {
         Console.WriteLine("Введите номер счёта для перевода:");
         int accountNumber = Convert.ToInt32(Console.ReadLine());
@@ -173,11 +174,11 @@ public class BankAccount
             if (sumPerevod <= currentUser.Sum)
             {
                 recipient = account[accountNumber];
-                currentUser.Sum -= sumPerevod; // посе перевода у нынешнего аккаунта остается
+                currentUser.Sum -= sumPerevod; // после перевода у нынешнего аккаунта остается
                 recipient.Sum += sumPerevod; // прибавление денег к счету другого пользователя
 
                 Console.WriteLine("Перевод выполнен успешно.");
-                Console.WriteLine($"Сумма {sumPerevod} рублей переведена на счет аккаунта с номером {recipient.Number}");
+                Console.WriteLine($"Сумма {sumPerevod} рублей переведена на счет аккаунта с номером счета {recipient.Number}");
                 Console.WriteLine($"На счету осталось: {currentUser.Sum} рублей");
             }
             else
