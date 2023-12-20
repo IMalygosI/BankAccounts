@@ -5,9 +5,9 @@ using System.Xml.Linq;
 
 public class Account
 {
-    public int Number { get; set; }
-    public string name { get; set; }
-    public float Sum { get; set; }
+    public int Number;
+    public string name;
+    public float Sum;
 }
 public class BankAccount
 {
